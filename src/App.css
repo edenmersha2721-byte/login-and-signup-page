@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +18,6 @@ body {
   width: 100%;
 }
 
-/* Sign Up Container */
 .signup-container,
 .login-container,
 .welcome-container {
@@ -29,7 +28,7 @@ body {
   padding: 20px;
 }
 
-/* Sign Up Box */
+
 .signup-box,
 .login-box,
 .welcome-box {
@@ -41,7 +40,7 @@ body {
   max-width: 400px;
 }
 
-/* Headings */
+
 h1 {
   color: #333;
   text-align: center;
@@ -56,7 +55,7 @@ h1 {
   font-size: 14px;
 }
 
-/* Form Groups */
+
 .form-group {
   margin-bottom: 20px;
 }
@@ -89,7 +88,7 @@ input::placeholder {
   color: #999;
 }
 
-/* Error Message */
+
 .error-message {
   background-color: #ffebee;
   color: #c62828;
@@ -100,7 +99,7 @@ input::placeholder {
   border-left: 4px solid #c62828;
 }
 
-/* Submit Button */
+
 .submit-button,
 .logout-button {
   width: 100%;
@@ -127,7 +126,6 @@ input::placeholder {
   transform: translateY(0);
 }
 
-/* Welcome Page Styles */
 .welcome-full-page {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
@@ -180,7 +178,7 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.9);
 }
 
-/* Login Link */
+
 .login-link,
 .signup-link {
   text-align: center;
@@ -207,7 +205,7 @@ input::placeholder {
   text-decoration: underline;
 }
 
-/* Responsive Design */
+
 @media (max-width: 500px) {
   .signup-box,
   .login-box,
