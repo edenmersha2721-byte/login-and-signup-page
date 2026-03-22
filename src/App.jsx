@@ -17,19 +17,11 @@ const [userData, setUserData] = useState({
     setUserData(data)    
     setCurrentPage('welcome')
   }
-
-  
-  const handleLoginSuccess = (data) => {
-    // Save user data
-    setUserData(data)
-    // Switch to welcome page
-    setCurrentPage('welcome')
+ const handleLoginSuccess = (data) => {
+      setUserData(data)
+     setCurrentPage('welcome')
   }
-
-  // This function switches to login page
   const goToLogin = () => setCurrentPage('login')
-
-  // This function switches to signup page
   const goToSignUp = () => setCurrentPage('signup')
   if (currentPage === 'welcome') {
     return <Welcome userData={userData} onLogout={() => setCurrentPage('login')} />
